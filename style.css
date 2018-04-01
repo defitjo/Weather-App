@@ -1,0 +1,52 @@
+html {
+    box-sizing: border-box;
+    background: url('weather.jpg') no-repeat;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    font-size: 70px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.search-form {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+input.search {
+    margin: 0;
+    outline: 0;
+    padding: 20px;
+    border: 10px solid #F7F7F7;
+    width: 120%;
+    left: -10%;
+    position: relative;
+    top: 10px;
+    z-index: 2;
+    border-radius: 5px;
+    font-size: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+input.submit {
+    margin: 25px 0 0 0;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    border-radius: 5px;
+    left: 25%;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: #4caf50;
+}
